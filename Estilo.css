@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font: 100%;
+    background: linear-gradient(68.15deg, #3c3b3d 16.62%, #080807 85.61%);
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:24px;
+
+}
+
+
+.cabecalho-imagem{
+    height:72px;
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap:32px;
+}
+
+
+.cabecalho-menu-item{
+    font-family:'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size:18px
+
+
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family:'Sarala', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #ECD6C4
+}
+.btn-fale-comigo{
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: hsla(194 100% 69% / 1);
+    --btn-bg-2: hsla(217 100% 56% / 1);
+    --btn-bg-color: hsla(360 100% 100% / 1);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.9em 1.4em;
+    min-width: 120px;
+    min-height: 44px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    }
+
+
+
+.btn-fale-comigo:is(:focus, :focus-within,:active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-fale-comigo {
+    transition: linear;
+  }
+}
+
+
+
+.conteudo-principal-imagem{
+    width:10%;
+    height:10%;
+    margin-top: 48px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 5%;
+    object-fit: cover;
+    
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    margin-top: 48px;
+
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+
+}
+.conteudo-secundario-paragrafo{
+    font-family:'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color:#ECD6C4;
+}
+
+.rodape{
+    padding:32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+
+
+.rodape-imagem{
+    height:48px;
+    display:block;
+    text-align: center;
+}
+.curriculo-arquivo{
+    margin-top: 30px 30 30 30;
+    width:100%;
+    height: 100%;
+}
+
+
+  
